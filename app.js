@@ -40,7 +40,7 @@ function validateForm() {
     }else if(titleInput.value.trim()=='có' || titleInput.value.trim()=='iu'|| titleInput.value.trim()=='yah sure chắc chắn là như vậy ròi' || titleInput.value.trim()=='Iu' || titleInput.value.trim()=='co'||titleInput.value.trim()=='iu' || titleInput.value.trim()=='Co'|| titleInput.value.trim()=='Kó' || titleInput.value.trim()=='Có'|| titleInput.value.trim()=='yes'){
         setSuccess(titleInput, "ỏoo");
     }else {
-        setError(usernameInput, "qqqqq");
+        setError(titleInput, "qqqqq");
     }
 
 }
